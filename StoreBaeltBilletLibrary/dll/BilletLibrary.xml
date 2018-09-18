@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BilletLibrary</name>
+    </assembly>
+    <members>
+        <member name="P:BilletLibrary.Bil.Nummerplade">
+            <summary>
+            En property med backing field, der kan sætte
+            en begrænsning på længden af nummerpladen.
+            Hvis nummerpladen har en karakterlængde på over 7,
+            så vil der komme en fejlmeddelse der fortæller dette.
+            </summary>
+        </member>
+        <member name="M:BilletLibrary.Bil.Pris">
+            <summary>
+            En overridet metode fra KøretøjSuperClass, der angiver
+            en billetpris for en bil.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BilletLibrary.Bil.Køretøj">
+            <summary>
+            En overridet metode fra KøretøjSuperClass, der angiver
+            typen af køretøjet.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BilletLibrary.Bil.BroBizz">
+            <summary>
+            En overridet metode der giver 5% rabat på billetprisen,
+            hvis man har en BroBizz.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BilletLibrary.KøretøjSuperClass.Pris">
+            <summary>
+            En metode der giver prisen på en billet.
+            Prisen varierer fra hvert køretøj, derfor er metoden abstract,
+            så den kan overrides i den nedarvede klasse.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BilletLibrary.KøretøjSuperClass.Køretøj">
+            <summary>
+            En metoder der viser hvilket køretøj der er tale om.
+            Typen af køretøj varierer, derfor er metoden abstract,
+            så den kan overrides i den nedarvede klasse.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BilletLibrary.KøretøjSuperClass.BroBizz">
+            <summary>
+            En metode der giver rabat på billetprisen, når man har en BroBizz.
+            Prisen varierer, derfor er metoden lavet abstract, så den kan ændres
+            i den nedarvede klasse.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:BilletLibrary.MC.Nummerplade">
+            <summary>
+            En property med backing field, der kan sætte
+            en begrænsning på længden af nummerpladen.
+            Hvis nummerpladen har en karakterlængde på over 7,
+            så vil der komme en fejlmeddelse der fortæller dette.
+            </summary>
+        </member>
+        <member name="M:BilletLibrary.MC.Pris">
+            <summary>
+            En overridet metode fra KøretøjSuperClass, der angiver
+            en billetpris for en motorcykel.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BilletLibrary.MC.Køretøj">
+            <summary>
+            En overridet metode fra KøretøjSuperClass, der angiver
+            typen af køretøjet.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BilletLibrary.MC.BroBizz">
+            <summary>
+            En overridet metode der giver 5% rabat på billetprisen,
+            hvis man har en BroBizz.
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
